@@ -1,10 +1,41 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
 body {
-    background-image: light yellow
+    
+    background-color: aquamarine;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+ul {
+    background-color: lightgreen;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 
+}
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px;
+
+
+
+}
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
 h1 {
 
     color:rgba(20, 50, 50, 25);
@@ -12,105 +43,25 @@ h1 {
     font-size: 40px;
     font-family: ariel;
 }
-.header{
-    border-bottom: 5px solid black;
-    border-right: 5px solid black
-    
-
+img{
+    margin-top: 150px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
-p {
-    font-family: serif;
-    font-size: 20px;
-
-
-
-}
-footer {
+.my-footer {
+    margin-top :300px;
     background-color: black;
-    font-size: 10px;
-    font-style: italic;
-    color: white;
-    height: 180px;
-    border-top: 5px solid rgba(220, 0,0 , 50);
-    padding: 10px 10px;
-    box-sizing: border-box;
-    position: fixed;
-    bottom:0;
-    width: 100%;
-
-
-    
-    
-}
-
-li {
-    
-    font-size: 30px;
-    
-}
-nav ul {
+    border:2px solid gray;
+    height:100px;
+    width:100%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+.my-footer img {
 
+    margin: 0px;
 }
-.container {
-    position: relative;
-}
-
-.container {
-    width: 105%;
-    margin: 0 auto;
-}
-
-header {
-    background: #55d6aa;
-
-}
-
-nav {
-    float: center;
-}
-
-nav ul {
-    Margin:0;
-    padding:0
-    list-style none;
-}
-nav li {
-    display:inline-block
-    margin left 0 70px
-    padding-top 25px;
-    position: relative
-}
-nav a{
-    color: #444;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-
-}
-
-
-.site-header-background {
-    width: 100%;
-    height: 150px;
-  }
-  .jagged-top {
-    stroke: white;
-    stroke-width: 4;
-    transition: 1s;
-  }
-  html, body {
-    height: 100%;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  .content {
-    flex: 1 0 auto;
-  }
-  .footer {
-    flex-shrink: 0;
-  }
-
+    
 
