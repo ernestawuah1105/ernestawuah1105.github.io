@@ -58,20 +58,22 @@ img{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
+    bottom: -2px;
 } 
 .my-footer img {
 
-    margin: 0px;
+    margin: 12px;
 }
 p {
-    font size: 25px;
+    font-size: 25px;
     line-height: 24px;
+
     
-
-
 }
 .container {
-    max-width: 600px;
+    max-width: 1000px;
 }
+
 
 
